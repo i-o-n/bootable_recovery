@@ -28,7 +28,7 @@ cc_library_static {
     export_include_dirs: ["include"],
 
     product_variables: {
-        aosp: {
+        ion: {
             bootloader_message_offset : {
                 cflags: ["-DBOARD_RECOVERY_BLDRMSG_OFFSET=%d"],
             },
